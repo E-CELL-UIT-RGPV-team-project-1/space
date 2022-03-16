@@ -1,14 +1,27 @@
 import './navbar.css';
+import React from "react";
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
     return ( 
-        <div className="Navbar">
-            this is the nav bar
-        </div>
+            <nav>
+                <div>
+                    <img src={require(`./img/ecell logo.png`)} alt="" className="logo" />
+                </div>
 
+                <div>
+                    <ul>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/Register">REGISTER</Link></li>
+                        <li><Link to="/Organiser"> ORGANISERS</Link></li>
+                    </ul>
+                </div>
+            </nav>
 
+        
      );
 }
- 
+
 export default Navbar;
 
 
