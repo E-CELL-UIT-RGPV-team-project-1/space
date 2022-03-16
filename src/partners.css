@@ -1,0 +1,78 @@
+
+.teams{
+    height: auto;
+    max-width: 100%;
+    background-image: linear-gradient(to bottom right, rgb(1, 1, 17), rgb(26, 8, 102) ,rgb(38, 107, 139), rgb(26, 8, 102),rgb(1, 1, 17));
+    /* background-color: #282c34; */
+    margin: auto;
+    text-align: center;
+}
+.teams h2 {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+    
+}
+
+.row1, .row2{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    height: 30vh;
+    width: 20%;
+    margin: 3vw;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgba(4, 2, 27, 0.589);
+    padding: 5px;
+
+}
+.card:hover{
+    background-image: linear-gradient(to bottom right, rgb(65, 172, 190), rgb(57, 28, 190),rgb(5, 5, 44));
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px white;
+    /* animation: side_shift 0.3 ; */
+}
+/* @keyframes side_shift{
+    from{
+        width: 20%;
+    }
+    to{
+        width: 25%;
+    }
+} */
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.box img{
+    width: 9rem;
+    height: 9rem;
+    margin: auto;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.box p{
+    
+    font-size: 1rem;
+    
+    margin:0.9rem;
+}
+.box .text{
+    font-size: 1.4rem;
+}
+
+
