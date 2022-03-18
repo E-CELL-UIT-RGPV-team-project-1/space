@@ -1,10 +1,10 @@
-import './App.css';
+ import './App.css';
+import Navbar from './nav-footer/navbar';
+import Header from './home/header';
+import Footer from './nav-footer/footer';
+import Organiser from './organiser/Organiser';
+import Instruction from './Components/Instructions';
 
-import Navbar from './navbar';
-import Header from './header';
-import Parteners from './partners';
-import Timeline from './timeline';
-import Footer from './footer';
 
 import {
   BrowserRouter,
@@ -22,29 +22,12 @@ function App() {
     <BrowserRouter>
     <Navbar/>
       <Routes>
-        <Route path="/" element={< Timeline />} />
-        <Route path="/Register" element={<Footer />}>
-        </Route>
+        <Route path="/" element={< Header />} />
+        <Route path="/Register" element={< Instruction/>}/>
+        <Route path="/Organiser" element={<Organiser/>}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
-
-    // <Router>
-    //   <div className="App">
-    //     <Navbar />
-    //     <Routes>
-    //       <Route path="/Register">
-    //       <Parteners />
-    //       </Route>
-    //       <Route path="/">
-    //       element={
-            
-    //         <Timeline/>
-    //         }
-    //       </Route>
-    //     </Routes>
-    //     <Footer />
-    //   </div>
-    // </Router>
   );
 }
 

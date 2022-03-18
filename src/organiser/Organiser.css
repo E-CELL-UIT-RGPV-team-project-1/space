@@ -1,0 +1,66 @@
+body{
+  background-color: #19153d;
+}
+.Heading {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  margin: 30px;
+  text-align: center;
+  background-image: linear-gradient(45deg, violet, rgb(58, 58, 255));
+  background-clip: text;
+  color: transparent;
+  position: relative;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+  line-height: 0.8em;
+  outline: none;
+}
+
+.Heading:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+    0 0 80px #03bcf4, 0 0 160px #03bcf4;
+}
+
+.projectscontent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins", sans-serif;
+}
+
+.div1 {
+  width: 320px;
+  height: 350px;
+  background-color: #19153d;
+  margin: 15px 45px 15px 45px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px violet, 0 0 40px rgb(58, 58, 255);;
+}
+
+.div1:hover{
+    color: #255784;
+    background: linear-gradient(45deg ,violet,blue);
+}
+
+.div1 img {
+  width: 250px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.Cardsheading {
+  text-align: center;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 25px;
+  margin-top: 8px;
+}
+
+.div1 p {
+  color: white;
+}

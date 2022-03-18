@@ -21,7 +21,7 @@
 }
 
 
-.card{
+.max-width .cardss{
     height: 30vh;
     width: 20%;
     margin: 3vw;
@@ -34,7 +34,7 @@
     padding: 5px;
 
 }
-.card:hover{
+.max-width .cardss:hover{
     background-image: linear-gradient(to bottom right, rgb(65, 172, 190), rgb(57, 28, 190),rgb(5, 5, 44));
     border: 2px solid white;
     border-radius: 15px;

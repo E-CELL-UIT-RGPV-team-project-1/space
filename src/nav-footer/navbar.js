@@ -6,7 +6,7 @@ const Navbar = () => {
     return ( 
             <nav>
                 <div>
-                    <img src={require(`./img/ecell logo.png`)} alt="" className="logo" />
+                    <img src={require(`../img/ecell logo.png`)} alt="" className="logo" />
                 </div>
 
                 <div>

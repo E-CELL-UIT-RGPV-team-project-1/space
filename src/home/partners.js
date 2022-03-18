@@ -9,23 +9,23 @@ const Parteners = () => {
                 <div className="max-width">
 
                     <div className="row1">
-                        <div className="card">
+                        <div className="cardss">
                             <div className="box">
-                                <img src={require('./img/moon.png')} alt="" />
+                                <img src={require('../img/moon.png')} alt="" />
                                 <div className="text">Someone name</div>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="cardss">
                             <div className="box">
-                                <img src={require('./img/moon.png')} alt="" />
+                                <img src={require('../img/moon.png')} alt="" />
                                 <div className="text">Someone name</div>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="cardss">
                             <div className="box">
-                                <img src={require('./img/moon.png')} alt="" />
+                                <img src={require('../img/moon.png')} alt="" />
                                 <div className="text">Someone name</div>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
@@ -33,16 +33,16 @@ const Parteners = () => {
                     </div>
 
                     <div className="row2">
-                        <div className="card">
+                        <div className="cardss">
                             <div className="box">
-                                <img src={require('./img/moon.png')} alt="" />
+                                <img src={require('../img/moon.png')} alt="" />
                                 <div className="text">Someone name</div>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
                         </div>
-                        <div className="card">
+                        <div className="cardss">
                             <div className="box">
-                                <img src={require('./img/moon.png')} alt="" />
+                                <img src={require('../img/moon.png')} alt="" />
                                 <div className="text">Someone name</div>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </div>
