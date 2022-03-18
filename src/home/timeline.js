@@ -5,64 +5,77 @@ import 'aos/dist/aos.css';
 
 const Timeline = () => {
     return (
-        
-            <div className="timeline">
-                <div className="timeline-row">
-                    <div className="timeline-time" >
-                        1:00 AM<small>Dec 1</small>
-                    </div>
-                    <div className="timeline-content" >
-                        <img className="icon-attachment" src={require('../img/setern.png')} alt="" />
-                        <h4>Anuusment</h4>
-                        <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, vitae!</p>
-                        {/* <div className="thumbs">
-                                <img className="img-fluid rounded" src={require("./img/moon.png")} alt="Maxwell Admin" />
-                                <img className="img-fluid rounded" src={require("./img/moon.png")} alt="Maxwell Admin" />
-                                <img className="img-fluid rounded" src={require("./img/moon.png")} alt="Maxwell Admin" />
-                            </div> */}
-                    </div>
-                </div>
 
-                <div className="timeline-row">
-                    <div className="timeline-time">
-                        1:00 AM<small>Dec 1</small>
-                    </div>
-                    <div className="timeline-content" >
-                        <img className="icon-attachment" src={require('../img/setern.png')} alt="" />
-                        <h4>registration starts</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, vitae!
-                        </p>
-                    </div>
-                </div>
-
-                <div className="timeline-row">
-                    <div className="timeline-time">
-                        1:00 AM<small>Dec 1</small>
-                    </div>
-                    <div className="timeline-content">
-                        <img className="icon-attachment" src={require('../img/setern.png')} alt="" />
-                        <h4>Session</h4>
-                        <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, vitae!</p>
-
-                    </div>
-                </div>
-
-                <div className="timeline-row">
-                    <div className="timeline-time">
-                        1:00 AM<small>Dec 1</small>
-                    </div>
-                    <div className="timeline-content">
-                        <img className="icon-attachment" src={require('../img/setern.png')} alt="" />
-                        <h4>Riwords</h4>
-                        <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, vitae!</p>
-
+        <div className="contain_timeline">
+            <div className="heading_timeline">
+                <h1 className="Heading">timeline</h1>
+            </div>
+            <div className="container-fluid py-5 " style={{color:'white'}}>
+                <div className="row">
+                    <div className="col-lg-12">
+                        <div className="horizontal-timeline">
+                            <ul className="list-inline items">
+                                <li className="list-inline-item items-list">
+                                    <div className="px-4">
+                                        <div className="event-date badge bg-info">2 June</div>
+                                        <h5 className="pt-2" style={{color:'white'}}>Event One</h5>
+                                        <p className="text-muted " style={{color:'white'}}>
+                                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla ipsam accusantium facilis, nam in!
+                                        </p>
+                                        <div>
+                                            <a href="#" className="btn btn-primary btn-sm">
+                                                Read more
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="list-inline-item items-list">
+                                    <div className="px-4">
+                                        <div className="event-date badge bg-success">5 June</div>
+                                        <h5 className="pt-2">Event Two</h5>
+                                        <p className="text-muted">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla ipsam accusantium facilis, nam in!
+                                        </p>
+                                        <div>
+                                            <a href="#" className="btn btn-primary btn-sm">
+                                                Read more
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="list-inline-item items-list">
+                                    <div className="px-4">
+                                        <div className="event-date badge bg-danger">7 June</div>
+                                        <h5 className="pt-2">Event Three</h5>
+                                        <p className="text-muted">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla ipsam accusantium facilis, nam in!
+                                        </p>
+                                        <div>
+                                            <a href="#" className="btn btn-primary btn-sm">
+                                                Read more
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="list-inline-item items-list">
+                                    <div className="px-4">
+                                        <div className="event-date badge bg-warning">8 June</div>
+                                        <h5 className="pt-2">Event Four</h5>
+                                        <p className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nulla ipsam accusantium facilis, nam in!
+                                        </p>
+                                        <div>
+                                            <a href="#" className="btn btn-primary btn-sm">
+                                                Read more
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-
-       
-
+        </div>
 
     );
 }
