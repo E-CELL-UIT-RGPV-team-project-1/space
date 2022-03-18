@@ -2,7 +2,11 @@ import React from 'react'
 
 const Registration = () => {
   return (
-    <div>
+    <div style={{backgroundColor: '#0c081c'}}>
+        <br />
+          <p className='text-info mb-4 Heading2' style={{Color: '#eee' , fontSize:'3rem', textAlign:'center', paddingtop:'4rem'}}>
+          REGISTER HERE
+          </p>
           <section className="vh-90" style={{backgroundColor: '#0c081c'}}>
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">

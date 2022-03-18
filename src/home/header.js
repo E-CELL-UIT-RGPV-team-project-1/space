@@ -3,14 +3,14 @@ import Parteners from './partners';
 import './header.css';
 
 const Header = () => {
-    return ( <>
+    return (<>
         <div className="headermain">
             <img className='mainbg' src={require('../img/mainbg.jpg')} alt="" />
         </div>
         < Timeline />
-        <Parteners/>
-        </>
-     );
+        <Parteners />
+    </>
+    );
 }
- 
+
 export default Header;

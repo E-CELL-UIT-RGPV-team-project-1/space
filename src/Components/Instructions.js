@@ -5,12 +5,12 @@ import PastEvents from './PastEvents';
 
 const Instructions = () => {
   return (<>
-      <div  style={{backgroundColor: '#0c081c'}}>
-        <br />
-           <p className='hi text-info mt-2 Heading' style={{Color: '#eee' , fontSize:'2rem', textAlign:'center', paddingtop:'4rem'}}>
-          INSTRUCTIONS
-          </p>
-          <div role="tabpanel " className="tab-pane" id="pricing">
+    <div style={{ backgroundColor: '#0c081c' }}>
+      <br />
+      <p className='hi text-info mt-2 mb-4 Heading2' style={{ Color: '#eee', fontSize: '3rem', textAlign: 'center', paddingtop: '4rem' }}>
+        INSTRUCTIONS
+      </p>
+      <div role="tabpanel " className="tab-pane" id="pricing">
         <div className="insideTab">
           <div className="row">
             <div className="col-lg-12 pricingdescnew ">
@@ -31,22 +31,16 @@ const Instructions = () => {
               <ul>
                 <li className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempora nobis est, iure voluptatibus vitae?</li>
               </ul>
-              {/* <p className='text-info'>Lorem ipsum: </p>
-              <ul>
-                <li className='text-secondary'>lorem.</li>
-                <li className='text-secondary'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab.</li>
-                <li className='text-secondary'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              </ul> */}
             </div>
           </div>
         </div></div>
-       
-      </div>
 
-       <Registration/>
-       <Faq/>
-       <PastEvents/>
+    </div>
 
-    </>)
-  }
+    <Registration />
+    <Faq />
+    <PastEvents />
+
+  </>)
+}
 export default Instructions;
