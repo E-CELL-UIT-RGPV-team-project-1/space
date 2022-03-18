@@ -6,7 +6,8 @@ import PastEvents from './PastEvents';
 const Instructions = () => {
   return (<>
       <div  style={{backgroundColor: '#0c081c'}}>
-           <p className='hi text-info' style={{Color: '#eee' , fontSize:'2rem', textAlign:'center', paddingtop:'4rem'}}>
+        <br />
+           <p className='hi text-info mt-2 Heading' style={{Color: '#eee' , fontSize:'2rem', textAlign:'center', paddingtop:'4rem'}}>
           INSTRUCTIONS
           </p>
           <div role="tabpanel " className="tab-pane" id="pricing">

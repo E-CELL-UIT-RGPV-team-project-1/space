@@ -2,3 +2,10 @@
   margin: 0;
   padding: 0;
 }
+/* Scroll Bar Removal */
+body {
+  overflow-x: hidden;
+}
+::-webkit-scrollbar{
+display: none;
+}

@@ -4,7 +4,8 @@ const Faq = () => {
   
     return (
       <div style={{backgroundColor: '#0c081c'}}>
-          <p className='text-info' style={{Color: '#eee' , fontSize:'2rem', textAlign:'center', paddingtop:'4rem'}}>
+        <br />
+          <p className='text-info Heading' style={{Color: '#eee' , fontSize:'2rem', textAlign:'center', paddingtop:'4rem'}}>
           FAQ's
           </p>
           <div style={{borderRadius: '25px'}} className="accordion w-100 border-info pl-5 pr-5" id="basicAccordion">

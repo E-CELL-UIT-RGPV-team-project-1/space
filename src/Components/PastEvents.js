@@ -3,7 +3,8 @@ import React, { PureComponent } from 'react'
 const PastEvents = () => {
         return (
             <div style={{ backgroundColor: '#0c081c' }}>
-                <p className='hi text-info mb-3' style={{ Color: '#eee', fontSize: '2rem', textAlign: 'center', paddingtop: '4rem' }}>
+                <br />
+                <p className='hi text-info mb-3 Heading' style={{ Color: '#eee', fontSize: '2rem', textAlign: 'center', paddingtop: '4rem' }}>
                     PAST EVENTS
                 </p>
                 <div className="card-deck" style={{ backgroundColor: '#0c081c' }}>
