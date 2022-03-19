@@ -1,11 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-export default function Header() {
+const Nav_two = () =>{
   return (
-    <div>
-        {/* Navbar */}
-        <nav className="navbar navbar-expand-lg sticky-top navbar-dark " style={{backgroundColor: '#271637'}}>
-        {/* Container wrapper */}
+    <div style={{ position: 'sticky',
+      top: 0,
+      left: 0,
+      margin:0,
+      padding:0,
+      
+      zIndex:10,
+      }}>
+        <nav className="navbar navbar-expand-lg sticky-top navbar-dark " style={{backgroundColor: ' #01015', margin:0,opacity: 1}}>
+      
         <div className="container-fluid">
           {/* Toggle button */}
           <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,22 +26,21 @@ export default function Header() {
             {/* Left links */}
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link text-info" href="#">HOME</a>
+              <Link to="/">HOME</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-info" href="#">REGISTRATION</a>
+              <Link  to="/Register">REGISTRATION</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-info" href="#">ORGANIZERS</a>
+              <Link  to="/Organiser"> ORGANISERS</Link>
               </li>
             </ul>
-            {/* Left links */}
           </div>
-          {/* Collapsible wrapper */}
         </div>
-        {/* Container wrapper */}
       </nav>
       {/* Navbar */} 
     </div>
   )
 }
+export default Nav_two;
+

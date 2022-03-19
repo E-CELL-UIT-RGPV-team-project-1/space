@@ -13,8 +13,10 @@ const Header = () => {
                 <h1 style={{ color: 'white' }}>WEBSITE</h1>
                 <h2 style={{ color: 'white' }}>We are here for you!</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam est </p>
+                <button className='header_btn'>Register</button>
             </div>
             <div className="header_img">
+                <div className="astro_img"></div>
             </div>
         </div>
 

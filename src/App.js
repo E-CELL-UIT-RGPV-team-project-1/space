@@ -4,6 +4,7 @@ import Header from './home/header';
 import Footer from './nav-footer/footer';
 import Organiser from './organiser/Organiser';
 import Instruction from './Components/Instructions';
+import Nav_two from './Components/Header';
 
 
 import {
@@ -20,7 +21,7 @@ function App() {
   return (
 
     <BrowserRouter>
-    <Navbar/>
+    <Nav_two/>
       <Routes>
         <Route path="/" element={< Header />} />
         <Route path="/Register" element={< Instruction/>}/>

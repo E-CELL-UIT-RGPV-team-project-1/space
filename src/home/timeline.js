@@ -4,8 +4,9 @@ import 'aos/dist/aos.css';
 
 
 const Timeline = () => {
-    return (
-
+    return (<>
+       
+        
         <div className="contain_timeline">
             <div className="heading_timeline">
                 <h1 className="Heading">TIMELINE</h1>
@@ -77,7 +78,7 @@ const Timeline = () => {
             </div>
         </div>
 
-    );
+        </> );
 }
 
 export default Timeline;
