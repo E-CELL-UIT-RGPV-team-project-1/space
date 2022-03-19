@@ -1,34 +1,29 @@
 import { Link } from 'react-router-dom';
 const Footer = () => {
-    return (<>
-        {/* Footer */}
-      <footer className="text-center text-lg-start 
+  return (<>
+    {/* Footer */}
+    <footer className="text-center text-lg-start 
        text-muted" style={{ backgroundColor: '#0c081c' }}>
       {/* Section: Social media */}
-      <section className="d-flex justify-content-center justify-content-lg-between pt-4 border-top ">
-        {/* Left */}
-        <div className="me-5 d-none d-lg-block text-white">
-          <span>Get connected with us on social networks:</span>
-        </div>
-        {/* Left */}
+      <section className="d-flex justify-content-center pt-4 border-top ">
         {/* Right */}
         <div>
-          <a href ="youtube.com" className="me-4 text-white">
+          <a href="youtube.com" className="me-4 text-white">
             <i className="fab fa-facebook-f" />
           </a>
-          <a href ="youtube.com" className="me-4 text-white">
+          <a href="youtube.com" className="me-4 text-white">
             <i className="fab fa-twitter" />
           </a>
-          <a href ="youtube.com" className="me-4 text-white">
+          <a href="youtube.com" className="me-4 text-white">
             <i className="fab fa-google" />
           </a>
-          <a href ="youtube.com" className="me-4 text-white">
+          <a href="youtube.com" className="me-4 text-white">
             <i className="fab fa-instagram" />
           </a>
-          <a href ="youtube.com" className="me-4 text-white">
+          <a href="youtube.com" className="me-4 text-white">
             <i className="fab fa-linkedin" />
           </a>
-          <a href ="youtube.com" className="me-4 text-white">
+          <a href="youtube.com" className="me-4 text-white">
             <i className="fab fa-github" />
           </a>
         </div>
@@ -58,13 +53,13 @@ const Footer = () => {
                 Quick Links
               </h6>
               <p>
-              <Link className="text-reset" to="">Home</Link>
+                <Link className="text-reset" to="">Home</Link>
               </p>
               <p>
-              <Link className="text-reset" to="#">Registration</Link>
+                <Link className="text-reset" to="#">Registration</Link>
               </p>
               <p>
-              <Link className="text-reset" to="#">Organisers</Link>
+                <Link className="text-reset" to="#">Organisers</Link>
               </p>
             </div>
             {/* Grid column */}
@@ -75,16 +70,16 @@ const Footer = () => {
                 Useful links
               </h6>
               <p>
-              <Link className="text-reset" to="#">Imp links</Link>
+                <Link className="text-reset" to="#">Imp links</Link>
               </p>
               <p>
-              <Link className="text-reset" to="#">Imp links</Link>
+                <Link className="text-reset" to="#">Imp links</Link>
               </p>
               <p>
-              <Link className="text-reset" to="#">Imp links</Link>
+                <Link className="text-reset" to="#">Imp links</Link>
               </p>
               <p>
-              <Link className="text-reset" to="#">Imp links</Link>
+                <Link className="text-reset" to="#">Imp links</Link>
               </p>
             </div>
             {/* Grid column */}
@@ -100,7 +95,7 @@ const Footer = () => {
                 xyz@gmail.com
               </p>
               <p><i className="fas fa-phone me-3 text-white" /> 9876543210</p>
-              
+
             </div>
             {/* Grid column */}
           </div>
@@ -110,7 +105,7 @@ const Footer = () => {
       {/* Section: Links  */}
     </footer>
     {/* Footer */}
-    </>  );
+  </>);
 }
- 
+
 export default Footer;
