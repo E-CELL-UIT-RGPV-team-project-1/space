@@ -10,7 +10,7 @@ const Instructions = () => {
       <p className='hi text-info mt-2 mb-4 Heading2' style={{ Color: '#eee', fontSize: '3rem', textAlign: 'center', paddingtop: '4rem' }}>
         INSTRUCTIONS
       </p>
-      <div role="tabpanel " className="tab-pane" id="pricing">
+      <div role="tabpanel " className="tab-panel pl-5" id="pricing">
         <div className="insideTab">
           <div className="row">
             <div className="col-lg-12 pricingdescnew ">
