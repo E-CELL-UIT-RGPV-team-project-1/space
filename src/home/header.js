@@ -1,14 +1,25 @@
 import Timeline from './timeline';
 import Parteners from './partners';
 import './header.css';
+
 import { Parallax, parallax } from 'react-parallax';
 
 const mainbg = "../img/mainbg.jpg";
 
 const Header = () => {
     return (<>
-        <Timeline/>
-        <Parteners/>
+        <div className="all_header">
+            <div className="header_text">
+                <h1 style={{ color: 'white' }}>Website</h1>
+                <h2 style={{ color: 'white' }}>we are heair for you</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam est </p>
+            </div>
+            <div className="header_img">
+            </div>
+        </div>
+
+        <Timeline />
+        <Parteners />
     </>
     );
 }
