@@ -13,9 +13,9 @@ const Parteners = () => {
 
         <div className="card_container" style={{color:'white'}}>
 
-            <h1 className="Heading">SPONSORS</h1>
+            <h1 className="Heading" >SPONSORS</h1>
 
-            <div className="card_row_1">
+            <div className="card_row_1" >
                 <div className="cardspo">
                     <div className="card ">
                         <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
