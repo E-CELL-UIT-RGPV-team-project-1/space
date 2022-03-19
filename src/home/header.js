@@ -10,8 +10,8 @@ const Header = () => {
     return (<>
         <div className="all_header">
             <div className="header_text">
-                <h1 style={{ color: 'white' }}>Website</h1>
-                <h2 style={{ color: 'white' }}>we are here for you!</h2>
+                <h1 style={{ color: 'white' }}>WEBSITE</h1>
+                <h2 style={{ color: 'white' }}>We are here for you!</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam est </p>
             </div>
             <div className="header_img">
