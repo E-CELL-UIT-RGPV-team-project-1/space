@@ -4,6 +4,7 @@ import './header.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Typewriter from "typewriter-effect";
 
 // import { Parallax, parallax } from 'react-parallax';
 
@@ -14,11 +15,23 @@ const Header = () => {
         Aos.init({ duration: 3000 });
     }, []);
 
+
+
     return (<>
-        <div  className="all_header">
+        <div className="all_header">
             <div className="header_text">
                 <h1 style={{ color: 'white' }}>WEBSITE</h1>
-                <h2  style={{ color: 'white' }}>We are here for you!</h2>
+                <h2 style={{ color: 'white' }}>We can help you in "
+                    <span id='span' style={{ color: 'blue' }}>
+
+                        <Typewriter
+                            onInit={(typewriter) => {
+                                typewriter.typeString("web devlopement").pauseFor(1000).deleteAll().typeString("indrustry feild").deleteAll().typeString("and every other feild").start();
+                            }}
+                        />
+
+                    </span>
+                    " </h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam est </p>
                 <button data-aos="zoom-in-left" className='header_btn'>Register</button>
             </div>
@@ -29,8 +42,10 @@ const Header = () => {
 
         <Timeline />
         <Parteners />
+
     </>
     );
+
 }
 
 export default Header;
