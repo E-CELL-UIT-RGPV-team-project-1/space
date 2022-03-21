@@ -5,10 +5,16 @@
   padding: 4rem;
   color: white;
   background-image: url(../img/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .header_img{
   width: 50%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
 }
 .header_img .astro_img{
   position: relative;
@@ -25,8 +31,8 @@
   animation-direction: alternate;
 }
 @keyframes mymove {
-  from {top: -8vh;}
-  to {top: 6vh;}
+  from {top: -6rem;}
+  to {top: 6rem;}
 }
 
 .header_text{
@@ -35,7 +41,7 @@
   display: flex;
   flex-direction: column;
   align-items:flex-start;
-  padding-top: 10rem;
+  justify-content: center;
  
 }
 .header_text h1{
