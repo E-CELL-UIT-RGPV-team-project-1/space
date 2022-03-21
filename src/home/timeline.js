@@ -1,17 +1,22 @@
 import './timeline.css';
-import AOS from 'aos';
+import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 
 const Timeline = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
+
     return (<>
-       
         
         <div className="contain_timeline">
             <div className="heading_timeline">
                 <h1 className="Heading">TIMELINE</h1>
             </div>
-            <div className="container-fluid py-5 " style={{color:'white'}}>
+            <div data-aos="zoom-in-up" className="container-fluid py-5 " style={{color:'white'}}>
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="horizontal-timeline">

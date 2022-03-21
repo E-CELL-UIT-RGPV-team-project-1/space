@@ -1,4 +1,7 @@
 import './partners.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 // const card_spo={
 //     width: '20vw',
@@ -9,6 +12,9 @@ import './partners.css';
 // style={card_spo}
 
 const Parteners = () => {
+    useEffect(() => {
+        Aos.init({ duration: 2000 });
+    }, []);
     return (<>
 
         <div className="card_container" style={{color:'white'}}>
@@ -16,7 +22,7 @@ const Parteners = () => {
             <h1 className="Heading" >SPONSORS</h1>
 
             <div className="card_row_1" >
-                <div className="cardspo">
+                <div data-aos="fade-up-right" className="cardspo">
                     <div className="card ">
                         <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img
@@ -40,7 +46,7 @@ const Parteners = () => {
                         </div>
                     </div>
                 </div>
-                <div className="cardspo">
+                <div data-aos="fade-up" className="cardspo">
                     <div className="card " >
                         <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img
@@ -64,7 +70,7 @@ const Parteners = () => {
                         </div>
                     </div>
                 </div>
-                <div className="cardspo">
+                <div data-aos="fade-up-left" className="cardspo">
                     <div className="card " >
                         <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img
@@ -91,7 +97,7 @@ const Parteners = () => {
             </div>
 
             <div className="card_row_2">
-                <div className="cardspo">
+                <div data-aos="fade-up-right" className="cardspo">
                     <div className="card " >
                         <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img
@@ -115,7 +121,7 @@ const Parteners = () => {
                         </div>
                     </div>
                 </div>
-                <div className="cardspo">
+                <div data-aos="fade-up-left" className="cardspo">
                     <div className="card " >
                         <div className="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                             <img
