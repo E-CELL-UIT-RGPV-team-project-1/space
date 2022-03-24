@@ -1,0 +1,29 @@
+
+.inst_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+.row_inst1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem ;
+}
+.inst{
+    padding: 0;
+    margin: auto;
+    height: 35vh;
+    min-width: 20%;
+    max-width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: small;
+    text-align: center;
+}
