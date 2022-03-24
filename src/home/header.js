@@ -5,6 +5,8 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Typewriter from "typewriter-effect";
+import AnimatedPage from "./AnimatedPage";
+
 
 // import { Parallax, parallax } from 'react-parallax';
 
@@ -17,7 +19,10 @@ const Header = () => {
 
 
 
-    return (<>
+    return (
+        <AnimatedPage>
+    
+    <>
         <div className="all_header">
             <div className="header_text">
                 <h1 style={{ color: 'white' }}>WEBSITE</h1>
@@ -44,6 +49,8 @@ const Header = () => {
         <Parteners />
 
     </>
+    </AnimatedPage>
+
     );
 
 }

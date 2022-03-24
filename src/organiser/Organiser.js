@@ -2,9 +2,12 @@ import React from "react";
 import Members from "./Members";
 import Hod from "./HOD";
 import "./Organiser.css";
+import AnimatedPage from "./AnimatedPage";
 
 const Organiser = () => {
-  return ( <>
+  return (
+    <AnimatedPage>
+       <>
     <div>
 
       <p className="Heading">Organizer</p>
@@ -39,6 +42,7 @@ const Organiser = () => {
     <Members/>
     <Hod/>
     </>
+    </AnimatedPage>
   );
 }
 export default Organiser;

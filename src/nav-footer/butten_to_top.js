@@ -31,14 +31,15 @@ function Button_top() {
                right : 50,
                height:50,
                width: 50,
+               cursor:"pointer"
            }}
            onClick= {scrollup}> <img 
            style={{
             position: "fixed",
             bottom: 50,
             right : 50,
-            height:100,
-            width: 70,
+            height:70,
+            width: 60,
             
         }}
             src={require("../img/rocket.png")} alt="" /> </div>
