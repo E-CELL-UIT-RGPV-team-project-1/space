@@ -11,14 +11,14 @@ const Registration = () => {
   return (
     <div style={{backgroundColor: '#0c081c'}}>
         <br />
-          <p className='text-info mb-4 Heading2' style={{Color: '#eee' , fontSize:'3rem', textAlign:'center', paddingtop:'4rem'}}>
+          <p className=' Heading' style={{fontSize:45}}>
           REGISTER HERE
           </p>
           <section className="vh-90" style={{backgroundColor: '#0c081c'}}>
         <div  data-aos="zoom-in" className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-lg-12 col-xl-11">
-              <div className="card text-black" style={{borderRadius: '25px',backgroundColor: '#4b2a53'}}>
+              <div className="card text-black" style={{borderRadius: '25px',backgroundColor: 'black',}}>
                 <div className="card-body p-md-5">
                   <div className="row justify-content-center text-secondary" style={{Color: '#eee'}} >
                     <div className="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
