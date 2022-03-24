@@ -51,7 +51,7 @@ const Faq = () => {
           </h2>
           <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#basicAccordion" style={{}}>
             <div style={{ backgroundColor: '#271637' }} className="accordion-body text-white">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default,
+              <strong>This is the third item's accordion body.</strong> It is hidden by default,
               until the collapse plugin adds the appropriate classes that we use to style each
               element. These classes control the overall appearance, as well as the showing and
               hiding via CSS transitions. You can modify any of this with custom CSS or overriding
@@ -68,7 +68,7 @@ const Faq = () => {
           </h2>
           <div id="basicAccordionCollapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-mdb-parent="#basicAccordion" style={{}}>
             <div style={{ backgroundColor: '#271637' }} className="accordion-body text-white">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default,
+              <strong>This is the forth item's accordion body.</strong> It is hidden by default,
               until the collapse plugin adds the appropriate classes that we use to style each
               element. These classes control the overall appearance, as well as the showing and
               hiding via CSS transitions. You can modify any of this with custom CSS or overriding
@@ -81,63 +81,7 @@ const Faq = () => {
 
     </div>
   
-    <section style={{ backgroundColor: '#0c081c' }}>
-      {/* <h3 class="text-center mb-4 pb-2 text-primary fw-bold">FAQ</h3> */}
-      
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mb-4 mt-5">
-          <h6 class="mb-3 text-primary"><i class="far fa-paper-plane text-primary pe-2"></i> A simple
-            question?</h6>
-          <p className='text-white'>
-            <strong><u>Absolutely!</u></strong> We work with top payment companies which guarantees
-            your safety and
-            security. All billing information is stored on our payment processing partner.
-          </p>
-        </div>
     
-        <div class="col-md-6 col-lg-4 mb-4 mt-5">
-          <h6 class="mb-3 text-primary"><i class="fas fa-pen-alt text-primary pe-2"></i> A question
-            that is longer then the previous one?</h6>
-          <p className='text-white'>
-            <strong><u>Yes, it is possible!</u></strong> You can cancel your subscription anytime in
-            your account. Once the subscription is
-            cancelled, you will not be charged next month.
-          </p>
-        </div>
-    
-        <div class="col-md-6 col-lg-4 mb-4 mt-5">
-          <h6 class="mb-3 text-primary"><i class="fas fa-user text-primary pe-2"></i> A simple
-            question?</h6>
-          <p className='text-white'>
-            Currently, we only offer monthly subscription. You can upgrade or cancel your monthly
-            account at any time with no further obligation.
-          </p>
-        </div>
-    
-        <div class="col-md-6 col-lg-4 mb-4">
-          <h6 class="mb-3 text-primary"><i class="fas fa-rocket text-primary pe-2"></i> A simple
-            question?</h6>
-          <p className='text-white'>
-            Yes. Go to the billing section of your dashboard and update your payment information.
-          </p>
-        </div>
-    
-        <div class="col-md-6 col-lg-4 mb-4">
-          <h6 class="mb-3 text-primary"><i class="fas fa-home text-primary pe-2"></i> A simple
-            question?</h6>
-          <p className='text-white'><strong><u>Unfortunately no</u>.</strong> We do not issue full or partial refunds for any
-            reason.</p>
-        </div>
-    
-        <div class="col-md-6 col-lg-4 mb-4">
-          <h6 class="mb-3 text-primary"><i class="fas fa-book-open text-primary pe-2"></i> Another
-            question that is longer than usual</h6>
-          <p className='text-white'>
-            Of course! We’re happy to offer a free plan to anyone who wants to try our service.
-          </p>
-        </div>
-      </div>
-    </section>
     </>
   )
 }

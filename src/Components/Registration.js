@@ -1,6 +1,13 @@
 import React from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 const Registration = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+}, []);
   return (
     <div style={{backgroundColor: '#0c081c'}}>
         <br />
@@ -8,7 +15,7 @@ const Registration = () => {
           REGISTER HERE
           </p>
           <section className="vh-90" style={{backgroundColor: '#0c081c'}}>
-        <div className="container h-100">
+        <div  data-aos="zoom-in" className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-lg-12 col-xl-11">
               <div className="card text-black" style={{borderRadius: '25px',backgroundColor: '#4b2a53'}}>
