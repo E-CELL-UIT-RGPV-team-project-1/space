@@ -4,7 +4,7 @@ import "./Organiser.css";
 const Members = () => {
   return (
     <div>
-      <p className="Heading">Members</p>
+      <p className="Heading">MEMBERS</p>
       <div className="projectscontent">
         <div className="div1">
           <div>

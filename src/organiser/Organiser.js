@@ -10,7 +10,7 @@ const Organiser = () => {
        <>
     <div>
 
-      <p className="Heading">Organizer</p>
+      <p className="Heading">ORGANIZERS</p>
       <div className="projectscontent">
 
         <div className="glass"></div>
