@@ -17,9 +17,11 @@ const Instructions = () => {
           <div className="row_inst1">
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }}>
-                <lord-icon trigger="loop"  src="https://cdn.lordicon.com/nobciafz.json" colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
-</i>
+
+
+                <lord-icon src="https://cdn.lordicon.com/eszyyflr.json" trigger="loop" colors="primary:#4030e8,secondary:#30c9e8" style={{ width: '120px', height: '120px' }}>
+                </lord-icon>
+
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
@@ -27,10 +29,11 @@ const Instructions = () => {
             </div>
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }} >
-                <lord-icon trigger="loop"  src="https://cdn.lordicon.com/imamsnbq.json" colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
 
-                </i>
+                {/* <i style={{ height: 20, width: 20, fontSize: 35, }} class="fa-solid fa-code"></i> */}
+                <lord-icon src="https://cdn.lordicon.com/zpxybbhl.json" trigger="loop" colors="primary:#4030e8,secondary:#30c9e8" style={{ width: '120px', height: '120px' }}>
+                </lord-icon>
+                
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
@@ -38,24 +41,26 @@ const Instructions = () => {
             </div>
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }} >
-                <lord-icon trigger="loop" src="https://cdn.lordicon.com/zpxybbhl.json"  colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
 
-                </i>
+                {/* <i style={{ height: 20, width: 20, fontSize: 35, }} class="fa-solid fa-code-merge"></i> */}
+                <lord-icon src="https://cdn.lordicon.com/gqdnbnwt.json" trigger="loop" colors="primary:#4030e8,secondary:#30c9e8" style={{ width: '120px', height: '120px' }}>
+                </lord-icon>
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
               </div>
             </div>
           </div>
-         
-           <div className="row_inst1">
+
+          <div className="row_inst1">
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }} >
-                <lord-icon trigger="loop" src="https://cdn.lordicon.com/nocovwne.json"  colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
 
-                </i>
+                {/* <i style={{ height: 20, width: 20, fontSize: 35, }} class="fa-solid fa-cubes"></i> */}
+                <lord-icon src="https://cdn.lordicon.com/wloilxuq.json" trigger="loop" colors="primary:#4030e8,secondary:#30c9e8" style={{ width: '120px', height: '120px' }}>
+                </lord-icon>
+
+               
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
@@ -63,10 +68,12 @@ const Instructions = () => {
             </div>
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }}>
-                <lord-icon trigger="loop"  src="https://cdn.lordicon.com/wloilxuq.json"  colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
 
-                </i>
+                {/* <i style={{ height: 20, width: 20, fontSize: 35, }} class="fa-solid fa-laptop-code"></i> */}
+                <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json" trigger="loop" colors="primary:#4030e8,secondary:#30c9e8" style={{ width: '120px', height: '120px' }}>
+                </lord-icon>
+
+                
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
@@ -74,10 +81,9 @@ const Instructions = () => {
             </div>
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }} >
-                <lord-icon trigger="loop"  src="https://cdn.lordicon.com/ssdupzsv.json"  colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
-
-                </i>
+                <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json" trigger="loop" colors="primary:#7166ee,secondary:#30c9e8" style={{ width: '120px', height: '120px' }}>
+                </lord-icon>
+                {/* <i style={{ height: 20, width: 20, fontSize: 35, }} class="fa-solid fa-user-secret"></i> */}
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
