@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: auto;
     width: 100%;
     flex-direction: column;
 }
@@ -26,4 +26,30 @@
     flex-direction: column;
     font-size: small;
     text-align: center;
+    
+}
+
+@media only screen and (max-width: 950px) {
+    .inst{
+        margin: 0vh 5vw; 
+        min-width: 28%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .inst{
+        margin: 0vh 2%; 
+    }
+}
+@media only screen and (max-width: 550px) {
+    .inst{
+        margin: 0vh 0;
+        padding: 0;
+        min-width: 50%; 
+    }
+    .row_inst1{
+        flex-direction: column;
+    }
+    .row_inst1{
+        margin: 0;
+    }
 }
