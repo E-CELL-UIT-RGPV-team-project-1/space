@@ -97,7 +97,7 @@ const Footer = () => {
               <h6 className="text-uppercase fw-bold mb-4 text-white">
                 Contact Us
               </h6>
-              <p><i className="fas fa-home me-3 text-white" />E-Cell RGPV, Gandhi Nagar, BhopalL</p>
+              <p><i className="fas fa-home me-3 text-white" />E-Cell RGPV, Gandhi Nagar, Bhopal</p>
               <p>
                 <i className="fas fa-envelope me-3 text-white" />
                 xyz@gmail.com

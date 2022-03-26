@@ -1,11 +1,12 @@
 import React, { PureComponent } from 'react'
+import "../organiser/Organiser.css";
 
 const Faq = () => {
 
   return (<>
     <div style={{ backgroundColor: '#0c081c' }}>
       <br />
-      <p className='text-info mb-4 Heading2' style={{ Color: '#eee', fontSize: '3rem', textAlign: 'center', paddingtop: '4rem' }}>
+      <p className="Heading">
         FAQ's
       </p>
       <div style={{ borderRadius: '25px' }} className="accordion w-100 border-info pl-5 pr-5" id="basicAccordion">

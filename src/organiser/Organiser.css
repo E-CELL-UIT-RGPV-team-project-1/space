@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #19153d;
 }
 .Heading {
@@ -15,7 +15,7 @@ body{
   line-height: 0.8em;
   outline: none;
 }
-.Heading:hover{
+.Heading:hover {
   color: #fff;
   text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
     0 0 80px #03bcf4, 0 0 160px #03bcf4;
@@ -38,12 +38,12 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
-  box-shadow: 0 0 10px violet, 0 0 40px rgb(58, 58, 255);;
+  box-shadow: 0 0 10px violet, 0 0 40px rgb(58, 58, 255);
 }
 
-.div1:hover{
-    color: #255784;
-    background: linear-gradient(45deg ,violet,blue);
+.div1:hover {
+  color: #255784;
+  background: linear-gradient(45deg, violet, blue);
 }
 
 .div1 img {
@@ -57,14 +57,25 @@ body{
   color: whitesmoke;
   font-weight: bolder;
   font-size: 25px;
-  margin-top: 8px;
+  margin: 8px 0 5px 0;
 }
 
 .div1 p {
   color: white;
 }
 
+.cardsp {
+  font-size: 16px;
+}
+
+.Cardsline{
+  background-color: gray;
+  height: 1px;
+  margin: 3px 15px 9px 15px;
+}
+
 /* Registration section */
+
 .Heading1 {
   font-weight: bold;
   font-family: "Open Sans", sans-serif;
@@ -76,7 +87,7 @@ body{
   line-height: 0.8em;
   outline: none;
 }
-.Heading1:hover{
+.Heading1:hover {
   color: #fff;
   text-shadow: 0 0 10px #3d0461, 0 0 20px #3d0461, 0 0 40px #cb7dfc,
     0 0 80px #3d0461, 0 0 160px #3d0461;
@@ -96,4 +107,43 @@ body{
   color: #fff;
   text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
     0 0 80px #03bcf4, 0 0 160px #03bcf4;
+}
+
+/*-------------------- Responsive --------------------*/
+
+@media (max-width: 770px) {
+  .Heading {
+    font-size: 45px;
+    margin: 20px 0 20px 0;
+  }
+
+  .div1 {
+    width: 250px;
+    height: 280px;
+    margin: 15px 45px 15px 45px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .div1 img {
+    width: 190px;
+    margin-top: 15px;
+    border-radius: 8px;
+  }
+
+  .Cardsheading {
+    font-size: 22px;
+    margin: 5px 0 0 0;
+  }
+
+  .cardsp {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .Cardsline{
+    margin: 3px 5px 8px 5px;
+  }
 }

@@ -2,6 +2,7 @@ import React, { PureComponent } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import "../organiser/Organiser.css";
 
 const PastEvents = () => {
     useEffect(() => {
@@ -10,7 +11,7 @@ const PastEvents = () => {
     return (
         <div style={{ backgroundColor: '#0c081c' }}>
             <br />
-            <p className='hi text-info mb-4 Heading2' style={{ Color: '#eee', fontSize: '3rem', textAlign: 'center', paddingtop: '4rem' }}>
+            <p className="Heading">
                 PAST EVENTS
             </p>
             <div  className="card-deck" style={{ backgroundColor: '#0c081c' }}>
