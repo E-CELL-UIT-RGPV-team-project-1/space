@@ -12,6 +12,7 @@ import AnimatedPage from "./AnimatedPage";
 
 const mainbg = "../img/mainbg.jpg";
 
+
 const Header = () => {
     useEffect(() => {
         Aos.init({ duration: 3000 });
@@ -38,7 +39,7 @@ const Header = () => {
                     </span>
                     " </h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam est </p>
-                <button data-aos="zoom-in-left" className='header_btn'>Register</button>
+                <button data-aos="zoom-in" className='header_btn'>Register</button>
             </div>
             <div className="header_img">
                 <div className="astro_img"></div>
