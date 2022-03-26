@@ -17,7 +17,7 @@ const PastEvents = () => {
 
                 <div data-aos="zoom-in"
      data-aos-easing="ease-in-back"
-     data-aos-delay="50"
+     data-aos-delay="200"
      data-aos-offset="0"  className="card border border-info shadow-2">
                     <img className="card-img-top " src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp" alt="Card image cap" />
                     <div className="card-body text-info" style={{ backgroundColor: '#0c081c' }}>
@@ -30,7 +30,7 @@ const PastEvents = () => {
 
                 <div data-aos="zoom-in"
      data-aos-easing="ease-in-back"
-     data-aos-delay="100"
+     data-aos-delay="200"
      data-aos-offset="0" className="card border border-info shadow-2">
                     <img className="card-img-top " src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp" alt="Card image cap" />
                     <div className="card-body text-info" style={{ backgroundColor: '#0c081c' }}>
@@ -41,7 +41,7 @@ const PastEvents = () => {
 
                 <div data-aos="zoom-in"
      data-aos-easing="ease-in-back"
-     data-aos-delay="150"
+     data-aos-delay="200"
      data-aos-offset="0" className="card border border-info shadow-2">
                     <img className="card-img-top " src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp" alt="Card image cap" />
                     <div className="card-body text-info" style={{ backgroundColor: '#0c081c' }}>
