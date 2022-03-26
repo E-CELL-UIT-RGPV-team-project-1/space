@@ -11,7 +11,7 @@ const Instructions = () => {
       <>
 
         <div className="inst_container" style={{ color: 'white', backgroundColor: '#0c081c' }}>
-          <h1 className="Heading">INSTRUCTIONS</h1>
+          <h1 className="Heading">iNSTRUCTIONS</h1>
           <div className="row_inst1">
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
