@@ -1,9 +1,17 @@
 import { Link } from 'react-router-dom';
+import Background_footer from "../img/mainbg.jpg";
+
 const Footer = () => {
   return (<>
+  
     {/* Footer */}
     <footer className="text-center text-lg-start 
-       text-muted" style={{ backgroundColor: '#0c081c' }}>
+       text-muted" style={{  
+        backgroundImage: "url(" + Background_footer + ")",
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+      }}>
       {/* Section: Social media */}
       <section className="d-flex justify-content-center pt-4 border-top ">
         {/* Right */}
