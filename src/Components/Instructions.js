@@ -4,13 +4,6 @@ import Faq from './Faq';
 import PastEvents from './PastEvents';
 import AnimatedPage from "./AnimatedPage";
 import "./instructions.css";
-import { loadAnimation } from "lottie-web";
-import { defineLordIconElement } from "lord-icon-element";
-
-// register lottie and define custom element
-defineLordIconElement(loadAnimation);
-
-
 
 const Instructions = () => {
   return (
