@@ -4,6 +4,11 @@ import Faq from './Faq';
 import PastEvents from './PastEvents';
 import AnimatedPage from "./AnimatedPage";
 import "./instructions.css";
+import { loadAnimation } from "lottie-web";
+import { defineLordIconElement } from "lord-icon-element";
+
+// register lottie and define custom element
+defineLordIconElement(loadAnimation);
 
 
 
@@ -17,7 +22,9 @@ const Instructions = () => {
           <div className="row_inst1">
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }} class="fa-solid fa-user"></i>
+                <i style={{ height: 20, width: 20, fontSize: 35, }}>
+                <lord-icon trigger="loop"  src="https://cdn.lordicon.com/nobciafz.json" colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
+</i>
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
@@ -25,7 +32,10 @@ const Instructions = () => {
             </div>
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }} class="fa-solid fa-code"></i>
+                <i style={{ height: 20, width: 20, fontSize: 35, }} >
+                <lord-icon trigger="loop"  src="https://cdn.lordicon.com/imamsnbq.json" colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
+
+                </i>
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
@@ -33,7 +43,10 @@ const Instructions = () => {
             </div>
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }}  class="fa-solid fa-code-merge"></i>
+                <i style={{ height: 20, width: 20, fontSize: 35, }} >
+                <lord-icon trigger="loop" src="https://cdn.lordicon.com/zpxybbhl.json"  colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
+
+                </i>
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
@@ -44,7 +57,10 @@ const Instructions = () => {
            <div className="row_inst1">
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }} class="fa-solid fa-cubes"></i>
+                <i style={{ height: 20, width: 20, fontSize: 35, }} >
+                <lord-icon trigger="loop" src="https://cdn.lordicon.com/nocovwne.json"  colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
+
+                </i>
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
@@ -52,7 +68,10 @@ const Instructions = () => {
             </div>
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }}class="fa-solid fa-laptop-code"></i>
+                <i style={{ height: 20, width: 20, fontSize: 35, }}>
+                <lord-icon trigger="loop"  src="https://cdn.lordicon.com/wloilxuq.json"  colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
+
+                </i>
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.
@@ -60,7 +79,10 @@ const Instructions = () => {
             </div>
             <div className="inst">
               <div style={{ marginBottom: 15 }} className="pngtag">
-                <i style={{ height: 20, width: 20, fontSize: 35, }} class="fa-solid fa-user-secret"></i>
+                <i style={{ height: 20, width: 20, fontSize: 35, }} >
+                <lord-icon trigger="loop"  src="https://cdn.lordicon.com/ssdupzsv.json"  colors="primary:#7166ee,secondary:#4f1091" style={{ width:150,height:150 }}></lord-icon>
+
+                </i>
               </div>
               <div className="inst-detail">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas provident repudiandae aperiam id sunt hic excepturi eligendi quas omnis aut.

@@ -9,6 +9,8 @@
     "aos": "^2.3.4",
     "font-awesome": "^4.7.0",
     "framer-motion": "^6.2.8",
+    "lord-icon-element": "^3.3.3",
+    "lottie-web": "^5.9.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-parallax": "^3.3.0",
