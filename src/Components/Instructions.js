@@ -5,6 +5,8 @@ import PastEvents from './PastEvents';
 import AnimatedPage from "./AnimatedPage";
 import "./instructions.css";
 
+
+
 const Instructions = () => {
   return (
     <AnimatedPage>
